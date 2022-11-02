@@ -15,6 +15,10 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 5,
   },
+  infoContainer: {
+    flex: 1,
+    //backgroundColor: 'red',
+  },
   title: {
     color: 'black',
     fontSize: 20,
@@ -22,6 +26,12 @@ export default StyleSheet.create({
   },
   price: {
     color: '#979797',
+    fontSize: 16,
+    fontWeight: 'bold',
+    alignItems: 'flex-end',
+  },
+  stok: {
+    color: 'red',
     fontSize: 16,
     fontWeight: 'bold',
   },
